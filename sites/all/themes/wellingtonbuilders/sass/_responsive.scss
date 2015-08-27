@@ -1,0 +1,571 @@
+@media screen and (max-width:1380px)
+{
+	.view-projects-front
+	{
+		max-width: 800px;	
+	}
+
+	.view-projects-front .views-row
+	{	
+		
+		.more-link
+		{
+			bottom: -30%;
+		}
+		.field-content > div
+		{	
+			height:272px;
+
+			p
+			{
+				font-size: 16px;
+				padding-bottom: 5px;
+			}
+			img
+			{
+				width:100%;
+			}
+		}	
+	}
+
+	#block-menu-menu-footer-menu
+	{
+		&>.content>ul.menu >li
+		{
+			padding-right: 50px;
+		}
+	}
+
+	#footer .region-footer
+	{
+		max-width: 1000px;
+	}
+}
+
+@media screen and (max-width:960px)
+{
+	/*#block-block-8
+	{
+		height:800px;
+		position: relative;
+	}	
+
+	#block-webform-client-block-47
+	{
+		position:absolute;
+		bottom:30px;
+	}
+
+	.address
+	{
+		position:absolute;
+		top:0px
+	}*/
+}
+
+@media screen and (max-width:1140px)
+{	
+
+	.view-projects-front .view-header, 
+	.view-portfolio-image-slider .view-header
+	{
+		left:30px;
+	}
+
+	.view-projects-front .view-footer,
+	.view-portfolio-image-slider .view-footer
+	{
+		right:30px;
+	}
+
+	.view-footer
+	{
+		right:20px;
+	}
+
+	.view-header
+	{
+		left:20px;
+	}
+
+	.view-portfolio-details > .view-content,
+	.view-portfolio-details > .view-header
+	{
+		padding:0px 10px;
+	}
+
+	#header
+	{
+		padding:0px;
+		background:$darkgrey;
+		height: 65px;
+	}
+
+	.page-portfolio-details h1
+	{
+		padding-left:10px;
+	}
+
+	#header
+	{
+		padding-top:0px;
+	}
+
+	.page-affiliations .view-affiliations
+	{	
+		max-width: 745px;
+		.views-row
+		{	
+			width:350px;
+			img
+			{
+			  width: 70%;
+			  padding: 0 20px;
+			  height: auto;
+			}
+		}
+	}
+
+	#block-block-2
+	{
+	    width: 176px;
+  		height: 65px;
+		background:url('../images/mobile-logo.png') no-repeat;
+		background-size:cover;
+		cursor: pointer;
+
+		img
+		{
+			display: none;
+		}
+	}
+
+	#block-system-main-menu
+	{
+	
+		position:absolute;
+		right:-500px;
+		width: 300px;
+		background: $darkgrey;
+		transition: right 0.5s;
+		-webkit-transition: right 0.5s;
+
+		a:before
+		{
+			display: block;
+			float: left;
+			width:30px;
+			padding-right:20px;
+		}
+
+		a
+		{
+			padding:0 20px;
+		}
+
+		li
+		{
+			float: none;
+		}
+
+		ul.menu
+		{
+			padding-top:70px;
+			padding-bottom:30px;
+			float: none;
+		}
+
+		li.expanded ul.menu
+		{
+			display: block;
+			position: relative;
+			padding-left: 60px;
+			background: none;
+			border-top: 0px;
+			top:0px;
+	
+			&:before
+			{
+				display: none;
+			}
+		}
+
+
+	#about:before
+	{
+		background:url(../images/about-yellow.png) no-repeat;
+		background-position: center;
+	}
+
+	#service:before
+	{
+		background:url(../images/services-yellow.png) no-repeat;
+		background-position: center;
+	}
+	
+	#portfolio:before
+	{
+		background:url(../images/portfolio-yellow.png) no-repeat;
+		background-position: center;
+	}
+
+	#plan:before
+	{
+		background:url(../images/plans-yellow1.png) no-repeat;
+		background-position: center;
+	}
+
+	#reference:before
+	{
+		background:url(../images/reference-yellow.png) no-repeat;
+		background-position: center;
+	}
+
+	 #development:before
+	{
+		background:url(../images/develop-yellow2.png) no-repeat;
+		background-position: center;
+	}
+	
+	#contact:before
+	{
+		background:url(../images/contact-yellow2.png) no-repeat;
+		background-position: center;
+	}
+	}
+
+	#block-system-main-menu.show
+	{
+		right:0px;
+		transition: right 0.3s;
+		-webkit-transition: right 0.3s;
+	}
+
+	#page-wrapper
+	{
+		overflow:hidden;
+	}
+
+
+	#block-block-9
+	{	
+
+		position:absolute;
+		display: block;
+		right:0px;
+		z-index: 999;
+
+		a
+		{
+			color:white;
+			text-transform: uppercase;
+		}
+
+		span
+		{
+			float: left;
+			padding:20px 0px;
+			padding-right: 10px;
+		}
+
+		#contact-mobile
+		{
+			font-size: 0px;
+			color:transparent;
+			display: block;
+			width:30px;
+			height: 20px;
+			background:url('../images/contact.png') no-repeat;
+			padding-left:5px;
+			background-position: left bottom;
+		}
+
+		#mobile-menu:after
+		{
+			content:url('../images/mobile.png');
+			width:30px;
+			height:30px;
+			padding-left:5px;
+		}
+	}
+
+	#footer
+	{	
+		padding:20px 10px 100px;
+		ul.menu
+		{
+			display: none;
+		}
+	}
+
+	.view-references .quote
+	{
+		width:340px;
+		min-height: 250px;
+	}
+
+	.view-references
+	{
+		  max-width: 720px;
+		  margin: 0 auto;
+	}
+}
+
+@media screen and (max-width:980px)
+{
+	.page-portfolio-category,
+	.page-projects-listing,
+	.page-portfolio,
+	 .page-services .view-services
+	{
+		.view-content
+		{
+			max-width: 640px;
+			margin:0 auto;
+		}
+	}
+
+}
+
+@media screen and (max-width:930px)
+{	
+
+	.project-details .details-left, 
+	.project-details .description
+	{
+		float: none;
+		width:100%;
+	}
+
+	.view-portfolio-image-slider
+	{
+		max-width: 500px;
+
+		.views-row img
+		{
+			width:100%;
+		}
+
+		
+	}
+
+	.view-projects-front
+	{
+		max-width: 650px;
+
+		.views-row
+		{	
+			
+			.title
+			{
+				font-size: 28px;
+			}	
+			.more-link
+			{
+				bottom: -25%;
+			}
+			.field-content > div
+			{
+				height:222px;
+
+				p
+				{
+					padding-bottom:3px;
+				}
+			}
+		}
+	}
+
+	
+	.project-details .description
+	{	
+		 span
+		 {
+		 	width:200px;
+		 }
+
+		 p
+		 {
+		 	width:100%;
+		 }
+		
+	}
+}
+
+
+@media screen and (max-width:767px)
+{	
+
+	.page-affiliations .view-affiliations
+	{
+ 	  max-width: 320px;
+ 	 .views-row
+		{	
+			width:300px;
+		}
+	}
+
+	.overlay
+	{
+		padding:100px 10px;
+		width:250px;
+	}
+
+	.project-details .view-label
+	{
+		float: none;
+		width:50px;
+		padding-right:10px;
+	}
+
+	.yellow
+	{
+		padding-right:5px;
+	}
+
+	.view-references .quote
+	{
+		width:295px;
+		height:220px;	
+		min-height:inherit;
+
+		p
+		{
+			padding:20px 10px;
+		}
+
+		.ref-logo
+		{
+			bottom:20px;
+		}
+	}
+
+	.view-references
+	{
+		max-width: 320px;
+		margin:0 auto;
+	}
+
+	.view-portfolio-image-slider
+	{
+		max-width: 230px;
+
+		.view-header
+		{
+			left:10px;
+		}
+
+		.view-footer
+		{
+			right:10px;
+		}
+	}
+
+	input
+	{
+		width:260px;
+	}
+
+	.form-textarea-wrapper textarea
+	{
+		width:288px;
+	}
+
+	.page-portfolio-category,
+	.page-projects-listing,
+	.page-services .view-services
+	{
+		.view-content
+		{
+			max-width: 300px;
+			margin:0 auto;
+		}
+	}
+
+	.view-projects-front 
+	{
+		.image2,
+		.image3
+		{
+			display: none;
+		}
+
+		.view-header,
+		.view-footer
+		{
+			display: none;
+		}
+
+		.views-row
+		{
+			display: none;
+		}
+
+		.views-row:first-child
+		{
+			display: block;
+		}
+
+		.views-row
+		{	
+			.title
+			{
+				padding:20px 0px;
+			}
+
+			.description
+			{
+				padding-bottom: 30px;
+			}
+			.field-content > div
+			{
+				float: none;
+				width:100%;
+				height: auto;
+				margin-bottom: 0px;
+
+				.yellow,p
+				{
+					font-size: 14px;
+				}
+				.yellow+p
+				{
+					display: inline-block;
+				}
+
+				p
+				{
+					display: inline-block;
+
+				}
+
+				&>div
+				{
+					transform: none;
+					-webkit-transform: none;
+					top:0;
+				}
+			}
+		}
+	}
+
+	.view-projects-front .views-row .field-content > div img
+	{
+		height: auto;
+	}
+
+	#block-block-4
+	{
+		width:300px;
+
+		img
+		{
+			width:100%;
+		}
+	}
+
+	#block-block-7
+	{
+		height:300px;
+	}
+}

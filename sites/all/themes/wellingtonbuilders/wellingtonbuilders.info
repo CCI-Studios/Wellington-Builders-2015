@@ -1,0 +1,29 @@
+name = wellingtonbuilders
+description = wellingtonbuilders Custom
+core = 7.x
+
+scripts[] = js/banner-slider.js
+scripts[] = js/banner-size.js
+scripts[] = js/portfolio-projects-slider.js
+scripts[] = js/other-images-slider.js
+scripts[] = js/map.js
+scripts[] = js/front-page-slider.js
+scripts[] = js/mobile-menu.js
+scripts[] = js/form-validation.js
+scripts[] = js/service-slider.js
+
+
+stylesheets[all][] = css/screen.css
+
+regions[navigation] = Navigation
+regions[header] = Header
+regions[banner] = Banner
+regions[inner-banner] = Inner Pages Banner
+regions[help] = Help
+regions[front-content] = Front Content
+regions[content] = Content
+regions[content] = Content
+regions[grey-region] = Grey Region
+regions[widgets] = Widgets
+regions[footer] = Footer
+
